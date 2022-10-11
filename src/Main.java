@@ -47,9 +47,9 @@ public class Main {
         }
 
 
-      // task2
+        // task2
 
-         int savings1 = 15000;
+        int savings1 = 15000;
         int month1 = 1;
         while (savings1 <= 12000000) {
             savings1 *= 1.07;
@@ -62,8 +62,8 @@ public class Main {
             // task3
 
             int sum = 15000;
-           int total1 = 0;
-            for (i = 1; i <= 9*12; i = i+6){
+            int total1 = 0;
+            for (i = 1; i <= 9 * 12; i = i + 6) {
                 total1 = total1 + sum;
                 total1 *= 1.07;
                 System.out.println("месяц " + i + " сумма накоплений " + total1);
@@ -72,7 +72,7 @@ public class Main {
             //task4
 
             int friday = 2;
-            for (int nextFriday = friday; nextFriday <= 31; nextFriday = nextFriday +7){
+            for (int nextFriday = friday; nextFriday <= 31; nextFriday = nextFriday + 7) {
                 System.out.println("сегодня пятница " + nextFriday + " ое число, необходимо подготовить отчет");
             }
 
@@ -81,16 +81,16 @@ public class Main {
             int year = 2022;
             int firstYear = year - 200;
             int lastYear = year + 100;
-            for ( int r = firstYear; r < lastYear; ++r ){
-                if ( r % 79 == 0){
+            for (int r = firstYear; r < lastYear; ++r) {
+                if (r % 79 == 0) {
                     System.out.println(r);
                 }
+            }
 
-                // task2
+            // task2
 
-                for (int n = 1; n <=10; n++){
-                    System.out.println("2*" + n + " = " + 2 * n);
-                }
+            for (int n = 1; n <= 10; n++) {
+                System.out.println("2*" + n + " = " + 2 * n);
             }
         }
     }
